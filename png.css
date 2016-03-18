@@ -1,0 +1,212 @@
+body{
+	
+background-color:blue;
+
+}
+
+ul.navigation {
+	float: left;
+	width: 100%;
+}
+
+li {list-style-type:none}
+ul.navigation li a {
+	float: left;
+	display: block;
+	width: 20%;
+	padding: 2%;
+	text-align: center;
+	text-decoration:overline;
+	display: block;
+	color: blue;
+	background: orange;
+}
+
+
+ul.navigation li a:hover {
+	color: black;
+	background-image:url("http://ian.umces.edu/imagelibrary/albums/userpics/10002/normal_ian-symbol-fish-school-3.png");
+	text-decoration: none;
+	}
+
+h1{
+
+
+text-align:center;
+
+color:white;
+
+
+font-family: 'Oswald', sans-serif;
+
+
+}
+
+
+h2{
+
+
+text-align:center;
+
+color:white;
+
+font-family: 'Oswald', sans-serif;
+
+}
+
+h3{
+
+
+text-align:center;
+
+color:white;
+
+
+font-family: 'Oswald', sans-serif;
+
+
+}
+
+p{
+
+color:white;
+
+font-size:20px;
+
+
+font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+
+a{
+
+color:yellow;
+
+
+
+font-family: 'Oswald', sans-serif;
+
+}
+
+iframe{
+
+padding-left:5%;
+
+border-color:red;
+
+border-radius:100%;
+
+
+}
+
+
+
+.whale{
+
+    background: url("http://vignette4.wikia.nocookie.net/jurassicfightclub/images/f/f2/Ancient-whale.png/revision/latest?cb=20120427163701");
+    background-size: 530px 300px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes pull {
+    0% {left:-50%;}
+ 
+    100% {left:100%;}
+
+
+
+}
+
+
+
+
+.whale{
+
+    width: 500px;
+    height: 300px;
+    left:0;
+   -webkit-animation-name: pull;
+   -webkit-animation-timing-function: linear;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+
+  position: absolute;
+
+
+background-image: url("http://vignette4.wikia.nocookie.net/jurassicfightclub/images/f/f2/Ancient-whale.png/revision/latest?cb=20120427163701");
+
+}
+
+
+p:hover, h1:hover, h2:hover, h3:hover {
+
+background-color:orange;
+
+}
+
+button:hover{
+
+background-clip:blue;
+
+
+}
+
+.blue{
+
+position:relative;
+
+
+display:block;
+overflow: hidden;
+
+height:300px;
+width: 100%;
+
+}
+
+
+
+#idaw{
+
+display:none;
+
+
+}
+
+
+.complete{
+    display:none;
+}
+
+
+
+.button{
+
+background-color:orange;
+
+
+position: absolute;
+
+left:50%;
+
+border-color:green;
+
+width:100px;
+
+height:40px;
+
+ cursor:pointer;
+}

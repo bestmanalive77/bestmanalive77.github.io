@@ -1,0 +1,161 @@
+body{
+
+background-color:yellow;
+
+
+}
+ul.navigation {
+	float: left;
+	width: 100%;
+}
+
+li {list-style-type:none}
+ul.navigation li a {
+	float: left;
+	display: block;
+	width: 20%;
+	padding: 2%;
+	text-align: center;
+	text-decoration:overline;
+	display: block;
+	color: yellow;
+	background: green;
+}
+
+
+ul.navigation li a:hover {
+	color: black;
+	background-image:url("https://s-media-cache-ak0.pinimg.com/236x/d3/ce/41/d3ce41e1187832661abe771b8e112335.jpg");
+	text-decoration: none;
+	background-color:green;
+	}
+
+
+
+h1{
+
+
+text-align:center;
+
+color:green;
+
+
+font-family: 'Oswald', sans-serif;
+
+
+}
+
+
+h2{
+
+
+text-align:center;
+
+color:green;
+
+font-family: 'Oswald', sans-serif;
+
+}
+
+h3{
+
+
+text-align:center;
+
+color:green;
+
+
+font-family: 'Oswald', sans-serif;
+
+
+}
+
+p{
+
+color:green;
+
+font-size:20px;
+
+
+font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+
+a{
+
+color:green;
+
+
+
+font-family: 'Oswald', sans-serif;
+
+}
+
+iframe{
+
+padding-left:5%;
+
+border-color:red;
+
+border-radius:100%;
+
+
+}
+
+
+
+.kangaroo{
+
+    background: url("http://freepngimages.com/wp-content/uploads/2015/08/kangaroo.png");
+    background-size: 330px 340px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes pull {
+
+	0% {transform: translate(0px,0px);}
+    10% {transform: translate(10%,50px);}
+    20% {transform: translate(20%,-50px);}
+    30% {transform: translate(30%,50px);}
+    40%  {transform: translate(40%,-50px);}
+    50% {transform: translate(50%,50px);}
+    60% {transform: translate(60%,-50px);}
+    70%{transform: translate(70%,50px);}
+    80%{transform: translate(80%,-50px);}
+    90%{transform: translate(90%,50px);}
+    100%{transform: translate(100%,-50px);}
+}
+
+
+.kangaroo{
+
+    width: 500px;
+    height: 400px;
+    
+   -webkit-animation-name: pull;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    margin-right:900px;
+}
+
+
+p:hover, h1:hover, h2:hover, h3:hover{
+
+background-color:black;
+
+}
