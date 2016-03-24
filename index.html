@@ -32,7 +32,7 @@
 <body>
 	
 
-<a class="blue" href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=humpback%20whale%20song">    <div class= "whale">     </div> </a>
+<a class="blue" href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&client=ubuntu#q=humpback%20whale%20song">    <div id= "whale">     </div> </a>
 
 	
 
@@ -84,17 +84,106 @@
 
 
 
-<span class="complete"><img src="https://s-media-cache-ak0.pinimg.com/236x/c7/7e/26/c77e2643f6b07d0133626767e848b632.jpg">          <iframe width="560" height="315" src="https://www.youtube.com/embed/6MfLTRkPHpo" frameborder="0" allowfullscreen></iframe>  </span>
+<span class="complete"><img src="https://s-media-cache-ak0.pinimg.com/236x/c7/7e/26/c77e2643f6b07d0133626767e848b632.jpg"> <iframe width="560" height="315" src="https://www.youtube.com/embed/6MfLTRkPHpo" frameborder="0" allowfullscreen></iframe>  </span>
 
 <span class="button">show more</span>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
 
+<!--<script src="button.js"></script>-->
 
 
 
- <script src="button.js"></script>
+
+<script>
+	
+
+ var jack = new Date();
+
+
+ var foot = Math.floor(Math.random() * 5);
+
+
+ foot++;
+ console.log(foot);
+
+
+   var whale = document.getElementById("whale");
+
+
+switch(foot) {
+   
+    case 1 :
+
+whale.className += "monday";
+
+     break;
+
+
+
+    case 2:
+
+whale.className += "tuesday";
+
+    break;
+
+
+   case 3: 
+
+
+whale.className += "wensday";
+
+
+
+    break;
+
+
+
+
+    case 4: 
+
+whale.className += "thursday";
+
+
+    break;
+
+
+
+    case 5:
+
+
+whale.className += "friday";
+
+    break;
+
+
+default: console.log("weekends off");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
 
 </body>
 </html>

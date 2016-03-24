@@ -133,7 +133,7 @@ border-radius:100%;
 
 
 
-.whale{
+#whale{
 
     width: 500px;
     height: 300px;
@@ -145,10 +145,72 @@ border-radius:100%;
 
   position: absolute;
 
+  background-repeat: no-repeat;
+
+
+  background-size:100% auto;
+
+
+
+
+}
+
+
+#whale.monday{
+
+
 
 background-image: url("http://vignette4.wikia.nocookie.net/jurassicfightclub/images/f/f2/Ancient-whale.png/revision/latest?cb=20120427163701");
 
+
 }
+
+
+
+#whale.tuesday{
+
+
+background-image: url("http://vignette2.wikia.nocookie.net/orcapod/images/d/d4/Killer-whale-female.png/revision/latest?cb=20140524182936");
+
+
+}
+
+
+
+
+
+
+#whale.wensday{
+
+background-image: url("https://36.media.tumblr.com/eac4f45b69a4c4b60a5b331dce5d7cff/tumblr_mq27y5Siup1szse16o1_500.png");
+
+
+-webkit-animation-duration: 60s;
+
+}
+
+
+
+#whale.thursday{
+
+
+background-image: url("http://media.news.com.au/multimedia/2011/12/sharks/assets/images/white_shark.png");
+
+
+
+}
+
+
+
+#whale.friday{
+
+
+background-image: url("http://lobsterboatrestaurant.homestead.com/lobster.png");
+
+
+
+}
+
 
 
 p:hover, h1:hover, h2:hover, h3:hover {
